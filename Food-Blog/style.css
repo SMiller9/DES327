@@ -1,0 +1,213 @@
+/* == Typography == */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 2.14rem;
+    line-height: 18pt;
+    color: #000000;
+}
+
+header,
+footer {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+ul {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;  
+    list-style-type: none;
+}
+
+#footertext {
+    align-content: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.29rem;
+    text-align: center;
+    margin: 3.125rem;
+}
+
+
+#nav a {
+    margin-right: 0.625rem;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#splash {
+    text-align: center;
+    font-size: 75px;
+    line-height: 4.29rem;
+    color: #000000;
+    background-image: url(heading.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 25rem;
+    background-color: white;
+}
+
+footer {
+    align-content: center;
+    color: #fff;
+    
+}
+
+
+/* == Background == */
+header, footer {
+    background-color: black;
+}
+
+
+main {
+    background-color: #fff;
+}
+
+#foodarticles {
+    background-color: gainsboro;
+}
+
+#sidebar {
+    background-color: gainsboro;
+}
+
+/* == Box Model == */
+
+#foodarticles {
+    padding: 25px;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+footer {
+    padding: 0.54rem;
+}
+
+header {
+    padding: 1.07rem;
+}
+
+
+footer {
+    padding-top: 2.68rem;
+}
+
+#splash {
+    height: 25rem;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* === Layout  === */
+
+header {
+    box-shadow: 0rem 0.813rem 2.813rem rgba(0,0,0,0.5);
+}
+
+#foodarticles {
+    align-content: center;
+    margin-left: 100px;
+}
+
+#sidebar {
+    align-content: center;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+#nav {
+    margin-top: 20px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.floatright {
+    float: right;
+    margin-right: 20px
+}
+
+/* = Grid =*/
+header {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#foodarticles {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#sidebar {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+
+/* = Flexbox = */
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* = fixed header = */
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#book {
+    position: fixed;
+    padding: 25px;
+    width: 400px;
+    height: 150px;
+    right: 35px;
+    bottom: 0;
+    background-color: red;
+    color: #000000;
+    text-align: center;
+}
+
+
+
